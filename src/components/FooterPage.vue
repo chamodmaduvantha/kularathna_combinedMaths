@@ -24,8 +24,9 @@ export default {
         return {
             logo: require('@/assets/logo_ke.png'),
             icons: [
-                { name: 'mdi-instagram', link: '' },
-                { name: 'mdi-facebook', link: 'https://www.facebook.com/KularathnaJanith?mibextid=ZbWKwL' }, // Update to a valid link
+                { name: 'mdi-instagram', link: 'https://www.instagram.com/kularathnajanith?utm_source=qr&igsh=djRiOWRycmdwNzV0 ' },
+                { name: 'mdi-facebook', link: 'https://www.facebook.com/KularathnaJanith?mibextid=ZbWKwL' },
+                { name: 'mdi-threads', link: 'https://www.threads.net/@kularathnajanith' }, // Update to a valid link
                 { name: 'mdi-linkedin', link: 'https://www.linkedin.com/in/janith-kularathna-508921228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' }, // Update to a valid link
             ]
         };
