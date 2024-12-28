@@ -1,17 +1,19 @@
 <template>
     <NavBar></NavBar>
     <v-container>
-        <div>
-            <h1 class="page-title center" data-aos="flip-left" data-aos-duration="2000">Our Documentations</h1>
-        </div>
-        <v-row align="center" justify="center">
-            <v-col cols="auto">
-                <div>
-                    <v-btn size="x-large" color="orange" v-for="document in documents" :key="document.link" class="mx-4" variant="text" @click="navigate(document.link)">
+        <v-row align="center" justify="center" class="text-center" style="flex-direction: column;">
+            <v-col>
+                <h1 class="page-title center" data-aos="flip-left" data-aos-duration="2000" style="color: #272643;">
+                    Tutes and Notes</h1>
+            </v-col>
+            <v-col>
+                <v-row align="center" justify="center" class="flex-column">
+                    <v-btn size="x-large" color="orange" v-for="document in documents" :key="document.link" class="my-2"
+                        variant="text" @click="navigate(document.link)">
                         <v-icon>{{ document.icon }}</v-icon> <!-- Display the icon -->
                         {{ document.name }} <!-- Display the document name -->
                     </v-btn>
-                </div>
+                </v-row>
             </v-col>
         </v-row>
     </v-container>
@@ -36,10 +38,16 @@ export default {
     data() {
         return {
             documents: [ // Corrected property name to 'documents'
-                { name: 'CEO Magazine', link: 'https://online.fliphtml5.com/mltis/fcvl/#p=1', icon: 'mdi-file' },
-                { name: 'E-Profile', link: 'https://online.fliphtml5.com/ugqql/vuqg/', icon: 'mdi-file' },
-                { name: 'Sample Document', link: 'https://online.fliphtml5.com/ugqql/ckxa/', icon: 'mdi-file' }
-                /*https://online.fliphtml5.com/ugqql/zvfp/*/
+                { name: '01.Equilibrium', link: 'https://online.fliphtml5.com/ugqql/rltg/', icon: 'mdi-file' },
+                { name: '02.Work, strength, ability Theyore', link: 'https://online.fliphtml5.com/ugqql/xsdi/', icon: 'mdi-file' },
+                { name: '03.Rectilinear Motion', link: 'https://online.fliphtml5.com/ugqql/ejvg/', icon: 'mdi-file' },
+                { name: '04.Relative Motion', link: 'https://online.fliphtml5.com/ugqql/magk/', icon: 'mdi-file' },
+                { name: '05.circular motion', link: 'https://online.fliphtml5.com/ugqql/zenc/', icon: 'mdi-file' },
+                { name: '06.Simple Harmonic Motion', link: 'https://online.fliphtml5.com/rcpsu/afky/', icon: 'mdi-file' },
+                { name: '07.Coplaner Force Systems', link: 'https://online.fliphtml5.com/rcpsu/bpfi/', icon: 'mdi-file' },
+                { name: '08.Vectors', link: 'https://online.fliphtml5.com/rcpsu/xivc/', icon: 'mdi-file' },
+                { name: '09.HEAVY RODS', link: 'https://online.fliphtml5.com/rcpsu/xulf/', icon: 'mdi-file' },
+                { name: '10.Light Rods Frameworks', link: 'https://online.fliphtml5.com/rcpsu/kquw/', icon: 'mdi-file' },
             ]
         };
     },
