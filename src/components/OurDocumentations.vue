@@ -66,9 +66,22 @@ export default {
         return {
             selectedPdf: null, // Holds the currently selected PDF link
             documents: [
-                { name: '01.Equilibrium', link: 'https://drive.google.com/file/d/1_E_gA0XDpMmJXzA5a39ZIaXu36Ox6CAo/view?usp=drive_link', icon: 'mdi-file' },
-                { name: '02.Work, strength, ability Theory', link: 'https://drive.google.com/uc?export=download&id=your-file-id-2', icon: 'mdi-file' },
-                // Add more documents as needed
+                { name: 'Equilibrium', link: 'https://drive.google.com/file/d/1_E_gA0XDpMmJXzA5a39ZIaXu36Ox6CAo/view?usp=drive_link', icon: 'mdi-file' },
+                { name: 'Work, strength, ability Theory', link: 'https://drive.google.com/file/d/1jXJCzC-6gx-F4KMejzNy3Uldcd6-EMoL/view?usp=drive_link', icon: 'mdi-file' },
+                { name: 'Rectilinear Motion', link: 'https://drive.google.com/file/d/16T7_3olCKH20Gq6BuOH9P_YRrLyvbU6U/view?usp=drive_link', icon: 'mdi-file' },
+                { name: 'Relative Motion, ability Theory', link: 'https://drive.google.com/file/d/1aT3oM7s1s0l01RblmJlxAdr4Nk6smDEt/view?usp=drive_link', icon: 'mdi-file' },
+                { name: 'Circular motion', link: 'https://drive.google.com/file/d/10n4CEr9od8CSN86it_59wbdOZk34QguK/view?usp=drive_link', icon: 'mdi-file' },
+                { name: 'Simple Harmonic Motion', link: 'https://drive.google.com/file/d/1psGSqGV_xARNVZfDC75Z_IOPWeYpohdY/view?usp=drive_link', icon: 'mdi-file' },
+                { name: 'Coplaner Force Systems', link: 'https://drive.google.com/file/d/1JVL9spScYN9uC003aOSqgwjTu4R9KFLA/view?usp=drive_link', icon: 'mdi-file' },
+                { name: 'Vectors', link: 'https://drive.google.com/file/d/1cyYi0SFlYg9Z0fPc7H0ZRb2Htj8vpAyZ/view?usp=drive_link', icon: 'mdi-file' },
+                { name: 'Heavy Rods', link: 'https://drive.google.com/file/d/1ttVQToJujVHcWLixRdM_Uxkzz-NOhTD2/view?usp=drive_link', icon: 'mdi-file' },
+                { name: 'Light Rods Frameworks', link: 'https://drive.google.com/file/d/1GSMgrIJwSIGGkyUSpF_SXfK27-nlkLvF/view?usp=drive_link', icon: 'mdi-file' },
+                { name: 'Center of Gravity', link: 'https://drive.google.com/file/d/1v4aIeNeqIUXVealMeTrfE2I4TGq3ZtoG/view?usp=drive_link', icon: 'mdi-file' },
+                { name: 'Probability', link: 'https://drive.google.com/file/d/1-gH0PAQxeb8NQpP3TmY07dbeOlq7KMKl/view?usp=drive_link', icon: 'mdi-file' },
+                { name: 'Statistics', link: 'https://drive.google.com/file/d/1xH3Qb8S10qfk8PjgqgSf4if3bg-e_tK4/view?usp=drive_link', icon: 'mdi-file' },
+                { name: '', link: 'https://drive.google.com/file/d/1psGSqGV_xARNVZfDC75Z_IOPWeYpohdY/view?usp=drive_link', icon: 'mdi-file' },
+                { name: '', link: 'https://drive.google.com/file/d/1JVL9spScYN9uC003aOSqgwjTu4R9KFLA/view?usp=drive_link', icon: 'mdi-file' },
+                { name: '', link: 'https://drive.google.com/file/d/1cyYi0SFlYg9Z0fPc7H0ZRb2Htj8vpAyZ/view?usp=drive_link', icon: 'mdi-file' },
             ],
         };
     },
