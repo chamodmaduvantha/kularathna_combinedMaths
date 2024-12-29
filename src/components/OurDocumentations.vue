@@ -5,7 +5,7 @@
             <v-row align="center" justify="center" class="" style="flex-direction: column;">
                 <v-col>
                     <h1 class="page-title center" data-aos="flip-left" data-aos-duration="2000" style="color: #272643;">
-                        Tutes and Notes
+                        Tutorials
                     </h1>
                 </v-col>
 
@@ -79,9 +79,16 @@ export default {
                 { name: 'Center of Gravity', link: 'https://drive.google.com/file/d/1v4aIeNeqIUXVealMeTrfE2I4TGq3ZtoG/view?usp=drive_link', icon: 'mdi-file' },
                 { name: 'Probability', link: 'https://drive.google.com/file/d/1-gH0PAQxeb8NQpP3TmY07dbeOlq7KMKl/view?usp=drive_link', icon: 'mdi-file' },
                 { name: 'Statistics', link: 'https://drive.google.com/file/d/1xH3Qb8S10qfk8PjgqgSf4if3bg-e_tK4/view?usp=drive_link', icon: 'mdi-file' },
-                { name: '', link: 'https://drive.google.com/file/d/1psGSqGV_xARNVZfDC75Z_IOPWeYpohdY/view?usp=drive_link', icon: 'mdi-file' },
-                { name: '', link: 'https://drive.google.com/file/d/1JVL9spScYN9uC003aOSqgwjTu4R9KFLA/view?usp=drive_link', icon: 'mdi-file' },
-                { name: '', link: 'https://drive.google.com/file/d/1cyYi0SFlYg9Z0fPc7H0ZRb2Htj8vpAyZ/view?usp=drive_link', icon: 'mdi-file' },
+                { name: 'සරල රේඛාව', link: 'https://drive.google.com/file/d/1R12WMZ1BPJYerEp99785b9XJntON3bD2/view?usp=drive_link', icon: 'mdi-file' },
+                { name: 'Trigonometry', link: 'https://drive.google.com/file/d/1a8BX69bVEUIsWmBku0rTC3_WKiOd_QrY/view?usp=drive_link', icon: 'mdi-file' },
+                { name: 'Grads', link: 'https://drive.google.com/file/d/1c5R0eEgE8bVJlSdQB8kjUzz58z5jubzP/view?usp=drive_link', icon: 'mdi-file' },
+                { name: 'Integration Tutorial', link: 'https://drive.google.com/file/d/1kNKR9JgXgZ5RLT6ToBjbqeatVOoh-DHG/view?usp=drive_link', icon: 'mdi-file' },
+                { name: 'Permutations and combinations Answers', link: 'https://drive.google.com/file/d/1_x-tyQ-hkxWD0wjCZ82i5O0QYL1O6R7A/view?usp=drive_link', icon: 'mdi-file' },
+                { name: 'Polynomial functions & square functions', link: 'https://drive.google.com/file/d/1nI6q81W_h-8GJr24WTg6KUZ50OcfoEhC/view?usp=drive_link', icon: 'mdi-file' },
+                { name: 'SCHOOL PEPERS MCQ', link: 'https://drive.google.com/file/d/1-eLBx9umE780S2yH4vT3Mujb3lbjOl3U/view?usp=drive_link', icon: 'mdi-file' },
+                { name: 'අවකලනය tute 01 & 02', link: 'https://drive.google.com/file/d/1jllpggEijyGE0vOBmEyRRhhKGRGMQWA6/view?usp=drive_link', icon: 'mdi-file' },
+                { name: 'ද්විපද ප්‍රසාරණය TUTE 02', link: 'https://drive.google.com/file/d/1F7bdwlQ-yW32DNHVQyW6Jj5n7UqSLe5s/view?usp=drive_link', icon: 'mdi-file' },
+                { name: 'න්‍යා ස හා   නිශ්චා යක & සංකීර්ණ සංඛ්‍යා', link: 'https://drive.google.com/file/d/13YGrZ6X861n3rmGWg6enlTsukt2zveCN/view?usp=drive_link', icon: 'mdi-file' },
             ],
         };
     },

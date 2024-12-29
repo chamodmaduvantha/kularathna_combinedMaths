@@ -19,13 +19,13 @@
           <v-btn rounded="xl" size="x-large" color="#272643" to="/" block mt-3>Home</v-btn>
         </li>
         <li class="nav-item active mr-3 mb-2 mt-3">
-          <v-btn rounded="xl" size="x-large" id="ourplantation" to="" block mt-3>Resources</v-btn>
+          <v-btn rounded="xl" size="x-large" id="ourplantation" to="" block mt-3>Notes</v-btn>
         </li>
         <li class="nav-item active mr-3 mb-2 mt-3">
-          <v-btn rounded="xl" size="x-large" id="contactus" block to="/documentations" mt-3>Documentations</v-btn>
+          <v-btn rounded="xl" size="x-large" id="contactus" block to="/documentations" mt-3>Tutorials</v-btn>
         </li>
         <li class="nav-item active mr-3 mb-2 mt-3">
-          <v-btn rounded="xl" size="x-large" id="aboutus" to="" block mt-3>About Us</v-btn>
+          <v-btn rounded="xl" size="x-large" id="aboutus" to="/about" block mt-3>About Us</v-btn>
         </li>
       </ul>
     </div>

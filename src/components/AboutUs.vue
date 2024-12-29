@@ -2,56 +2,52 @@
     <NavBar></NavBar>
     <v-container>
         <div class="logo-container mt-3" data-aos="zoom-in-up" data-aos-duration="2000">
-            <img :src="logo" alt="Company Logo" width="120" height="100" id="logo">
+            <img :src="logo" alt="Company Logo" width="150" height="150" id="logo">
         </div>
         <h1 class="title-intro mt-5" data-aos="fade-up" data-aos-duration="3000">
             About Us
         </h1>
         <br>
         <p class="paragraph" data-aos="fade-up" data-aos-duration="3000">
-            <b>Agroventures Plantations (Pvt) Ltd,</b> a pioneering company dedicated to the cultivation of vanilla and
-            other export-oriented spices. Our vision is to generate USD 1 billion for Sri Lanka by 2030 through
-            sustainable and large-scale vanilla cultivation. Our diverse range includes high-quality spices,
-            vanilla, and various other crops that are meticulously grown to meet the stringent standards of
-            international markets. Alongside our robust export operations, we are equally committed to serving the
-            local market, catering to the refined tastes and preferences of Sri Lankan consumers.
+            <b>Welcome to Kularathna Education,</b> a premier educational initiative founded and led by Mr. S.K. Janith Charuka Kularathne. With a solid academic background, Mr. Kularathne holds a Bachelor of Science degree from the University of Peradeniya, specializing in Mathematics and Physics.
 
-            Our unwavering dedication to sustainability is at the core of our operations. We employ advanced,
-            responsible farming practices that ensure minimal environmental impact while maximizing yield and
-            quality. By integrating cutting-edge agricultural technologies with traditional farming knowledge, we
-            maintain a delicate balance between innovation and heritage, ensuring the long-term health and
-            productivity of our lands.
-
-            As industry leaders, we pride ourselves on our ethical approach to agriculture. We believe in creating
-            value not just for our customers but for the entire ecosystem involved in our operations. This includes
-            fair labor practices, community engagement, and investment in local economies, all of which are integral
-            to our business model.
-
-            Agroventures Plantations offers unparalleled investment opportunities for those who are passionate about
-            ethical and environmentally conscious agriculture. Our initiatives are designed to provide significant
-            returns while promoting sustainability and ecological balance. Investors can be confident that their
-            involvement is contributing to a greater good, fostering a future where agricultural practices are
-            synonymous with responsibility and care for the environment.
-        </p>
-        <br>
-        <p class="paragraph" data-aos="fade-up" data-aos-duration="3000">
-            We are hoping to continue the timely tradition of our ancestors and strengthen the agro-investment industry
-            in Sri
-            Lanka. So join us in our innovative ventures that are sure to provide a great return to you and the
-            environment.
+            At Kularathna Education, we are committed to empowering students to achieve their fullest potential, particularly in mathematics. We specialize in providing expert guidance for the G.C.E. Advanced Level Combined Mathematics syllabus, ensuring students are equipped with effective strategies for mastering complex concepts. Our approach goes beyond just preparing students for exams; we focus on fostering a deep understanding of the subject, nurturing critical thinking, and helping students develop problem-solving skills that will benefit them long after they complete their studies.
         </p>
         <br>
 
         <h1 class="title-intro mt-5" data-aos="fade-up" data-aos-duration="3000">
-            Branchers
+            What We Offer
         </h1>
 
-        <div class="logo-container mt-3" data-aos="zoom-in-up" data-aos-duration="2000">
-            <img width="400" height="375" frameborder="0" class="ma-auto" :src="branchers" cover>
-        </div>
+        <p class="paragraph" data-aos="fade-up" data-aos-duration="3000">
+        <ul class="">
+            <li><b>Advanced Level Combined Mathematics Tuition</b> <br>Expert lessons tailored to help students excel in
+                the G.C.E. Advanced Level exam.</li><br><br>
+            <li><b>Secondary School Mathematics Tuition:</b> <br>Specialized guidance for students in secondary school to
+                build a strong foundation in mathematics.</li><br><br>
+            <li><b>Personalized Approach:</b> <br>Individualized attention to cater to the unique learning needs of each
+                student.</li>
+        </ul>
+        </p>
+        <br>
+        <p class="paragraph" data-aos="fade-up" data-aos-duration="3000">
+            At Kularathna Education, we strive to create a supportive and inspiring learning environment where every student can thrive.
+        </p>
 
+        <h1 class="title-intro mt-5" data-aos="fade-up" data-aos-duration="3000">
+            Contact Us
+        </h1>
+        <p class="paragraph" data-aos="fade-up" data-aos-duration="3000">
+        <ul>
+            <li><b>Email: </b>kularathna.janith@gmail.com</li>
+            <li><b>Phone: </b>+94 76 724 3586</li>
+            <li><b>Business Registration No: </b>24102002</li>
+        </ul>
+        </p>
 
-        <!-- Panorama viewer -->
+        <h3 class="title-intro mt-5" data-aos="fade-up" data-aos-duration="3000">
+            Join us at Kularathna Education to embark on a journey of academic excellence in mathematics!
+        </h3>
 
     </v-container>
 
@@ -78,7 +74,7 @@ export default {
     data() {
         return {
             branchers: require("../assets/cards/our-network.png"),
-            logo: require('@/assets/Logo_.png')
+            logo: require('@/assets/logo_ke.png')
         }
     },
 
@@ -112,4 +108,14 @@ export default {
     align-items: center;
     margin-top: 20px;
 }
+ul {
+    list-style: none; /* Optional: remove bullet points */
+    padding: 0;
+    margin: 0 auto; /* Centers the list horizontally */
+    text-align: center; /* Centers the text within the list items */
+  }
+  li {
+    display: inline-block; /* Optional: makes list items align horizontally */
+    margin: 0 10px; /* Adjust spacing between items */
+  }
 </style>
