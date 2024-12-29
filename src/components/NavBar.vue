@@ -25,7 +25,7 @@
           <v-btn rounded="xl" size="x-large" id="contactus" block to="/documentations" mt-3>Tutorials</v-btn>
         </li>
         <li class="nav-item active mr-3 mb-2 mt-2">
-          <v-btn rounded="xl" size="x-large" id="aboutus" to="/about" block mt-3>About Us</v-btn>
+          <v-btn rounded="xl" size="x-large" id="aboutus" to="/about" block mt-3>About</v-btn>
         </li>
       </ul>
     </div>
