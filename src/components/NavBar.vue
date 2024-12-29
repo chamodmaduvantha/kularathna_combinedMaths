@@ -19,7 +19,7 @@
           <v-btn rounded="xl" size="x-large" color="#272643" to="/" block mt-3>Home</v-btn>
         </li>
         <li class="nav-item active mr-3 mb-2 mt-3">
-          <v-btn rounded="xl" size="x-large" id="ourplantation" to="" block mt-3>Notes</v-btn>
+          <v-btn rounded="xl" size="x-large" id="ourplantation" to="/papers" block mt-3>Papers</v-btn>
         </li>
         <li class="nav-item active mr-3 mb-2 mt-3">
           <v-btn rounded="xl" size="x-large" id="contactus" block to="/documentations" mt-3>Tutorials</v-btn>

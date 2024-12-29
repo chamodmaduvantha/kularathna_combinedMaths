@@ -19,16 +19,16 @@
             What We Offer
         </h1>
 
-        <p class="paragraph" data-aos="fade-up" data-aos-duration="3000">
-        <ul class="">
+        <p class="paragraph" data-aos="fade-up" data-aos-duration="3000"></p>
+        <ul>
             <li><b>Advanced Level Combined Mathematics Tuition</b> <br>Expert lessons tailored to help students excel in
                 the G.C.E. Advanced Level exam.</li><br><br>
-            <li><b>Secondary School Mathematics Tuition:</b> <br>Specialized guidance for students in secondary school to
+            <li><b>Secondary School Mathematics Tuition</b> <br>Specialized guidance for students in secondary school to
                 build a strong foundation in mathematics.</li><br><br>
-            <li><b>Personalized Approach:</b> <br>Individualized attention to cater to the unique learning needs of each
+            <li><b>Personalized Approach</b> <br>Individualized attention to cater to the unique learning needs of each
                 student.</li>
         </ul>
-        </p>
+        
         <br>
         <p class="paragraph" data-aos="fade-up" data-aos-duration="3000">
             At Kularathna Education, we strive to create a supportive and inspiring learning environment where every student can thrive.
@@ -37,13 +37,14 @@
         <h1 class="title-intro mt-5" data-aos="fade-up" data-aos-duration="3000">
             Contact Us
         </h1>
-        <p class="paragraph" data-aos="fade-up" data-aos-duration="3000">
+        <p class="paragraph" data-aos="fade-up" data-aos-duration="3000"></p>
         <ul>
             <li><b>Email: </b>kularathna.janith@gmail.com</li>
             <li><b>Phone: </b>+94 76 724 3586</li>
             <li><b>Business Registration No: </b>24102002</li>
+            <li><b>Start Date: </b> Since January 2022</li>
         </ul>
-        </p>
+        
 
         <h3 class="title-intro mt-5" data-aos="fade-up" data-aos-duration="3000">
             Join us at Kularathna Education to embark on a journey of academic excellence in mathematics!
