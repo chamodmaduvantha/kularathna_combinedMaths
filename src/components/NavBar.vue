@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand-lg navbar-light bg-white full-width-nav">
     <v-row>
       <a class="navbar-brand" href="#">
-      <img :src="logoPath" alt="Company Logo" width="75" height="75" class="d-inline-block align-top ml-2">
+      <img :src="logoPath" alt="Company Logo" width="75" height="75" class="d-inline-block align-top ml-1">
     </a>
       <h3 class="mt-4" style="color: #272643; font-family: Arial, sans-serif; font-weight: bold;">KULARATHNA EDUCATION</h3>
     </v-row>
@@ -15,16 +15,16 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item active mr-3 mb-2 mt-3" custom-bg>
+        <li class="nav-item active mr-3 mb-2 mt-2" custom-bg>
           <v-btn rounded="xl" size="x-large" color="#272643" to="/" block mt-3>Home</v-btn>
         </li>
-        <li class="nav-item active mr-3 mb-2 mt-3">
+        <li class="nav-item active mr-3 mb-2 mt-2">
           <v-btn rounded="xl" size="x-large" id="ourplantation" to="/papers" block mt-3>Papers</v-btn>
         </li>
-        <li class="nav-item active mr-3 mb-2 mt-3">
+        <li class="nav-item active mr-3 mb-2 mt-2">
           <v-btn rounded="xl" size="x-large" id="contactus" block to="/documentations" mt-3>Tutorials</v-btn>
         </li>
-        <li class="nav-item active mr-3 mb-2 mt-3">
+        <li class="nav-item active mr-3 mb-2 mt-2">
           <v-btn rounded="xl" size="x-large" id="aboutus" to="/about" block mt-3>About Us</v-btn>
         </li>
       </ul>
@@ -60,7 +60,7 @@ export default {
 #ourplantation:hover,
 #contactus:hover,
 #aboutus:hover {
-  background-color: #004346;
+  background-color: #120150;
   transition: 0.7s;
   color: #ffffff;
 }

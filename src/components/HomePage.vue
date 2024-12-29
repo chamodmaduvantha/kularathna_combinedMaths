@@ -14,10 +14,15 @@
     <p class="paragraph" data-aos="fade-up" data-aos-duration="3000">
       <b>Kularathna Education</b> is a premier educational initiative founded and conducted by Mr. S.K. Janith Charuka
       Kularathne. With a solid academic foundation, Mr. Kularathne holds a Bachelor of Science degree from the
-      University of Peradeniya, specializing in Mathematics and Physics (December 2017 – February 2022).
+      University of Peradeniya, specializing in Mathematics (December 2017 – February 2022).
+
+      In addition to his undergraduate studies, Mr. Kularathne dedicated his 2nd Year and 3rd Year to full-time
+      Mathematics, delving deeply into advanced mathematical theories and applications, further enriching his expertise.
+
       Dedicated to academic excellence, Kularathna Education focuses on empowering students to achieve their fullest
       potential in mathematics. Mr. Kularathne brings his expertise to the classroom by teaching G.C.E. Advanced Level
       Combined Mathematics, providing personalized guidance and effective strategies for mastering complex concepts.
+
       At Kularathna Education, students are not just prepared for exams; they are inspired to cultivate a deep
       understanding of mathematics and develop critical thinking skills that will serve them well beyond the classroom.
     </p>
@@ -46,22 +51,22 @@
     </v-row>
 
     <!-- News Feed Section -->
-     <v-row class="text-center mt-5" justify="center">
-    <h1 class="title-intro mt-5" data-aos="fade-up" data-aos-duration="3000">
-      Students
-    </h1>
-    <div class="horizontal-scroll mt-5">
-      <v-row class="news-feed">
-        <v-col v-for="(item, i) in items" :key="i" class="d-flex justify-center">
-          <v-card class="mx-auto" max-width="400" data-aos="fade-down" data-aos-duration="1500">
-            <v-img :src="item.src" height="250" cover></v-img>
-            <v-card-subtitle class="text-bold mt-3">{{ item.subtitle }}</v-card-subtitle>
-            <v-card-text>{{ item.description }}</v-card-text>
-          </v-card>
-        </v-col>
-      </v-row>
-    </div>
-  </v-row>
+    <v-row class="text-center mt-5" justify="center">
+      <h1 class="title-intro mt-5" data-aos="fade-up" data-aos-duration="3000">
+        Students
+      </h1>
+      <div class="horizontal-scroll mt-5">
+        <v-row class="news-feed">
+          <v-col v-for="(item, i) in items" :key="i" class="d-flex justify-center">
+            <v-card class="mx-auto" max-width="400" data-aos="fade-down" data-aos-duration="1500">
+              <v-img :src="item.src" height="250" cover></v-img>
+              <v-card-subtitle class="text-bold mt-3">{{ item.subtitle }}</v-card-subtitle>
+              <v-card-text>{{ item.description }}</v-card-text>
+            </v-card>
+          </v-col>
+        </v-row>
+      </div>
+    </v-row>
   </v-container>
 
   <FooterPage></FooterPage>
@@ -114,7 +119,7 @@ export default {
           subtitle: "Sub Title",
           description: "Vanilla cultivation is the primary focus at Agroventures."
         },
-        
+
       ],
       logo: require('@/assets/logo_ke.png')
     }
