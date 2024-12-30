@@ -9,7 +9,7 @@
         </h1>
         <br>
         <p class="paragraph" data-aos="fade-up" data-aos-duration="3000">
-            <b>Welcome to Kularathna Education,</b> a premier educational initiative founded and led by Mr. S.K. Janith Charuka Kularathne. With a solid academic background, Mr. Kularathne holds a Bachelor of Science degree from the University of Peradeniya, specializing in Mathematics and Physics.
+            <b>Welcome to Kularathna Education,</b> a premier educational initiative founded and led by Mr. S.K. Janith Charuka Kularathna. With a solid academic background, Mr. Kularathna holds a Bachelor of Science degree from the University of Peradeniya, specializing in Mathematics and Physics.
 
             At Kularathna Education, we are committed to empowering students to achieve their fullest potential, particularly in mathematics. We specialize in providing expert guidance for the G.C.E. Advanced Level Combined Mathematics syllabus, ensuring students are equipped with effective strategies for mastering complex concepts. Our approach goes beyond just preparing students for exams; we focus on fostering a deep understanding of the subject, nurturing critical thinking, and helping students develop problem-solving skills that will benefit them long after they complete their studies.
         </p>

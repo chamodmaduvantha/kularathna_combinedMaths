@@ -27,6 +27,8 @@ export default {
       this.items = [
         { src: require("../assets/carosel/1.jpg") },
         { src: require("../assets/carosel/2.jpg") },
+        { src: require("../assets/carosel/3.png") },
+        { src: require("../assets/carosel/4.jpg") },
       ];
       console.log("Images loaded:", this.items);
     },
