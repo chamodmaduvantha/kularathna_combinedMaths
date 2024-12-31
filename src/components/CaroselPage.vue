@@ -54,7 +54,7 @@ export default {
 .carousel-image {
   display: block;
   width: 100%; /* Make the image take the full width of its container */
-  height: auto; /* Maintain aspect ratio */
+  height: 100%; /* Maintain aspect ratio */
   max-width: 2000px; /* Limit the maximum width to the original image size */
   margin: 0 auto;
   object-fit: contain; /* Ensure the image fits within its container without cropping */
