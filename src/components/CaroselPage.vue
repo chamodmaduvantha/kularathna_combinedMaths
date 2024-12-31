@@ -39,12 +39,7 @@ export default {
 </script>
 
 <style>
-.carousel-container {
-  position: relative;
-  width: 100%;
-  height: 100vh; /* Full height for the carousel */
-  overflow: hidden;
-}
+
 
 .carousel-image {
   width: 100%; /* Full width */
