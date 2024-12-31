@@ -1,7 +1,16 @@
 <template>
   <div class="carousel-container">
-    <v-carousel v-if="items.length" cycle interval="4000" data-aos="flip-left" data-aos-duration="2000">
-      <v-carousel-item v-for="(item, i) in items" :key="i">
+    <v-carousel
+      v-if="items.length"
+      cycle
+      interval="4000"
+      data-aos="flip-left"
+      data-aos-duration="2000"
+    >
+      <v-carousel-item
+        v-for="(item, i) in items"
+        :key="i"
+      >
         <img :src="item.src" class="carousel-image" alt="Carousel Image">
       </v-carousel-item>
     </v-carousel>
@@ -44,9 +53,11 @@ export default {
 
 .carousel-image {
   display: block;
-  max-width: 100%;
-  height: auto;
+  width: 100%; /* Make the image take the full width of its container */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 2000px; /* Limit the maximum width to the original image size */
   margin: 0 auto;
+  object-fit: contain; /* Ensure the image fits within its container without cropping */
 }
 
 .snowfall {
