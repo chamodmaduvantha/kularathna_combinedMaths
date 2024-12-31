@@ -50,6 +50,22 @@
             Join us at Kularathna Education to embark on a journey of academic excellence in mathematics!
         </h3>
 
+
+        <!-- Existing content -->
+
+        <h1 class="title-intro mt-5" data-aos="fade-up" data-aos-duration="3000">
+            Our Gallery
+        </h1>
+        <v-row justify="center" class="mt-5">
+            <v-col cols="12" sm="6" md="4" v-for="(photo, index) in photos" :key="index">
+                <v-card class="gallery-card" data-aos="zoom-in" data-aos-duration="2000">
+                    <v-img :src="photo.src" height="200px" class="gallery-image"></v-img>
+                    <v-card-title class="text-center">{{ photo.title }}</v-card-title>
+                </v-card>
+            </v-col>
+        </v-row>
+
+
     </v-container>
 
     <FooterPage></FooterPage>
@@ -75,7 +91,12 @@ export default {
     data() {
         return {
             branchers: require("../assets/cards/our-network.png"),
-            logo: require('@/assets/logo_ke.png')
+            logo: require('@/assets/logo_ke.png'),
+            photos: [
+                { src: require('@/assets/carosel/BR.jpg'), title: "Business Registration" },
+                { src: require('@/assets/carosel/Certificate.jpg'), title: "Degree Certificate" },
+                { src: require('@/assets/carosel/Graduation.jpg'), title: "Graduation" },
+            ]
         }
     },
 

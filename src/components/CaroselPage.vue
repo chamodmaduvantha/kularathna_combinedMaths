@@ -1,17 +1,8 @@
 <template>
   <div class="carousel-container">
-    <v-carousel
-      v-if="items.length"
-      cycle
-      interval="4000"
-      data-aos="flip-left"
-      data-aos-duration="2000"
-    >
-      <v-carousel-item
-        v-for="(item, i) in items"
-        :key="i"
-      >
-        <img :src="item.src" class="carousel-image" alt="Carousel Image">
+    <v-carousel v-if="items.length" cycle interval="4000" data-aos="flip-left" data-aos-duration="2000">
+      <v-carousel-item v-for="(item, i) in items" :key="i">
+        <v-img :src="item.src" class="carousel-image" contain></v-img>
       </v-carousel-item>
     </v-carousel>
 
@@ -36,9 +27,10 @@ export default {
   methods: {
     loadData() {
       this.items = [
-        { src: require("../assets/carosel/Graduation.jpg") },
-        { src: require("../assets/carosel/Certificate.jpg") },
-        { src: require("../assets/carosel/BR.jpg") },
+        { src: require("../assets/carosel/C3.png") },
+        { src: require("../assets/cards/2022AL.png") },
+        { src: require("../assets/cards/2023AL.png") },
+        { src: require("../assets/cards/2023OL.png") },
       ];
       console.log("Images loaded:", this.items);
     },
@@ -49,15 +41,15 @@ export default {
 <style>
 .carousel-container {
   position: relative;
+  width: 100%;
+  height: 100vh; /* Full height for the carousel */
+  overflow: hidden;
 }
 
 .carousel-image {
-  display: block;
-  width: 100%; /* Make the image take the full width of its container */
-  height: 100%; /* Maintain aspect ratio */
-  max-width: 2000px; /* Limit the maximum width to the original image size */
-  margin: 0 auto;
-  object-fit: contain; /* Ensure the image fits within its container without cropping */
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  object-fit: cover; /* Ensures the image covers the entire area */
 }
 
 .snowfall {
@@ -86,17 +78,69 @@ export default {
   0% {
     transform: translateY(-10%) translateX(0);
   }
-
   100% {
     transform: translateY(110vh) translateX(20px);
   }
 }
 
+/* Snowflake styles */
 .snow:nth-child(1) {
   left: 5%;
   animation-duration: 8s;
   animation-delay: 0s;
 }
 
-/* Additional snowflakes styling here */
+.snow:nth-child(2) {
+  left: 10%;
+  animation-duration: 10s;
+  animation-delay: 2s;
+}
+
+.snow:nth-child(3) {
+  left: 20%;
+  animation-duration: 12s;
+  animation-delay: 1s;
+}
+
+.snow:nth-child(4) {
+  left: 30%;
+  animation-duration: 7s;
+  animation-delay: 3s;
+}
+
+.snow:nth-child(5) {
+  left: 40%;
+  animation-duration: 9s;
+  animation-delay: 0s;
+}
+
+.snow:nth-child(6) {
+  left: 50%;
+  animation-duration: 11s;
+  animation-delay: 2s;
+}
+
+.snow:nth-child(7) {
+  left: 60%;
+  animation-duration: 8s;
+  animation-delay: 1s;
+}
+
+.snow:nth-child(8) {
+  left: 70%;
+  animation-duration: 12s;
+  animation-delay: 0s;
+}
+
+.snow:nth-child(9) {
+  left: 80%;
+  animation-duration: 9s;
+  animation-delay: 2s;
+}
+
+.snow:nth-child(10) {
+  left: 90%;
+  animation-duration: 10s;
+  animation-delay: 1s;
+}
 </style>
