@@ -27,7 +27,7 @@ export default {
   methods: {
     loadData() {
       this.items = [
-        { src: require("../assets/carosel/C3.png") },
+        { src: require("../assets/carosel/webcover2.jpg") },
         { src: require("../assets/cards/2022AL.png") },
         { src: require("../assets/cards/2023AL.png") },
         { src: require("../assets/cards/2023OL.png") },

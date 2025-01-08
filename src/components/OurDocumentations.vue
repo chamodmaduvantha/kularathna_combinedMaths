@@ -73,7 +73,7 @@ export default {
                 { name: 'Circular motion', link: 'https://drive.google.com/file/d/10n4CEr9od8CSN86it_59wbdOZk34QguK/view?usp=drive_link', icon: 'mdi-file' },
                 { name: 'Simple Harmonic Motion', link: 'https://drive.google.com/file/d/1psGSqGV_xARNVZfDC75Z_IOPWeYpohdY/view?usp=drive_link', icon: 'mdi-file' },
                 { name: 'Coplaner Force Systems', link: 'https://drive.google.com/file/d/1JVL9spScYN9uC003aOSqgwjTu4R9KFLA/view?usp=drive_link', icon: 'mdi-file' },
-                { name: 'Vectors', link: 'https://drive.google.com/file/d/1cyYi0SFlYg9Z0fPc7H0ZRb2Htj8vpAyZ/view?usp=drive_link', icon: 'mdi-file' },
+                { name: 'Vectors', link: 'https://drive.google.com/file/d/139qmoJAT7KNhM1Qh5bZi6UQgdNhasDqs/view?usp=sharing', icon: 'mdi-file' },
                 { name: 'Heavy Rods', link: 'https://drive.google.com/file/d/1ttVQToJujVHcWLixRdM_Uxkzz-NOhTD2/view?usp=drive_link', icon: 'mdi-file' },
                 { name: 'Light Rods Frameworks', link: 'https://drive.google.com/file/d/1GSMgrIJwSIGGkyUSpF_SXfK27-nlkLvF/view?usp=drive_link', icon: 'mdi-file' },
                 { name: 'Center of Gravity', link: 'https://drive.google.com/file/d/1v4aIeNeqIUXVealMeTrfE2I4TGq3ZtoG/view?usp=drive_link', icon: 'mdi-file' },
