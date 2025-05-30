@@ -70,6 +70,12 @@ export default {
   data() {
     return {
       items: [
+      {
+          src: require("../assets/cards/2024.png"),
+          title: "Title",
+          subtitle: "2024 Batch: Building Strong Mathematical Foundations",
+          description: "Unlock your full potential with expert guidance in G.C.E. Advanced Level Combined Mathematics.",
+        },
         {
           src: require("../assets/cards/2022AL.png"),
           title: "Title",

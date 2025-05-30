@@ -28,6 +28,7 @@ export default {
     loadData() {
       this.items = [
         { src: require("../assets/carosel/webcover2.jpg") },
+        { src: require("../assets/cards/2024.png") },
         { src: require("../assets/cards/2022AL.png") },
         { src: require("../assets/cards/2023AL.png") },
         { src: require("../assets/cards/2023OL.png") },
